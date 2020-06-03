@@ -6,7 +6,12 @@ Other read emails are treated as ham.
 
 ## USAGE
 
+
+With [nix](https://nixos.org/) you can do:
+
 ```
 $ nix-build
 $ ./result/bin/update-spam-ham ./path/to/maidir https://rspamd.<yourdomain>.<tld> "Your password"
 ```
+
+Otherwise use pip to install it...
