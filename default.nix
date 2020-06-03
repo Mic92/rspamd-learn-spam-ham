@@ -3,7 +3,7 @@
 with pkgs;
 python3.pkgs.buildPythonApplication {
   pname = "rspamd-learn-spam-ham";
-  version = "1.0";
+  version = "1.0.0";
 
   src = ./.;
 
